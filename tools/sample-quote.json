@@ -1,0 +1,36 @@
+{
+  "scenario": "教学样本 / 虚构的原创宠物图案帆布包 / 美国市场 / 无真实成交",
+  "unit": {
+    "selling_price": 39,
+    "cogs": 11,
+    "outbound_shipping": 8,
+    "inbound_freight": 0,
+    "import_duties": 1.5,
+    "other_product_tax": 0,
+    "marketplace_fee_pct": 8,
+    "payment_fee_pct": 3.2,
+    "platform_fixed_fee": 0,
+    "payment_fixed_fee": 0.3,
+    "refund_loss_pct": 5,
+    "returns_handling_reserve": 0,
+    "chargeback_reserve": 0,
+    "fx_fee": 0.5,
+    "misc_variable": 0,
+    "cac": 7,
+    "target_contribution": 5
+  },
+  "cash": {
+    "units_first_batch": 30,
+    "unit_cost_prepaid": 11,
+    "inbound_logistics_total": 100,
+    "samples_and_photos": 50,
+    "ad_budget": 90,
+    "setup_fixed_fees": 39,
+    "contingency_pct": 10
+  },
+  "notes": [
+    "所有费用是虚构的教学假设，不代表真实平台佣金、商家报价或实时关税。",
+    "若销售税由商家代收代缴，应视为应付税款而非自身收入；不同市场税费计算另行核对。",
+    "退款损失百分比是预期不可追回损失，不应再重复叠加相同成本。"
+  ]
+}
