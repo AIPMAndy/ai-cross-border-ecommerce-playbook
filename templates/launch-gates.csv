@@ -1,0 +1,8 @@
+﻿"gate_id","gate","status_unverified_blocked_passed","evidence_urls","evidence_file","checked_on","owner","next_action","stop_condition"
+"G01","经营主体","unverified","","","","","核对主体注册信息","未完成不得产生不可逆费用"
+"G02","平台准入","unverified","","","","","核对官方资格与账号地区","未通过不开店"
+"G03","收款到账","unverified","","","","","进行小额结算验证","未通过不投流"
+"G04","商品与进口准入","unverified","","","","","核验品类合规认证","未通过不采购"
+"G05","供应链质检","unverified","","","","","完成样品与交期验证","未通过不规模备货"
+"G06","单位经济性","unverified","","","","","计算全成本与最坏利润","未通过限制预算"
+"G07","回款与现金流","unverified","","","","","填写现金日历","不足以覆盖最坏情景则停"
