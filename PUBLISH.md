@@ -36,7 +36,7 @@ git push -u origin main
 3. 打开 Settings → Pages → Build and deployment → Source → GitHub Actions。
 4. 查看 Actions 中 `Deploy GitHub Pages` 是否成功，再访问 `https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/`。
 5. 检查手机版、24章/96卡/25例、筛选/打卡/利润和现金计算器/路线诊断/导入导出、外部案例链接。
-6. Settings → General → Social preview 可以上传真实网站截图 `assets/cover.png`，不能用模拟订单后台截图。
+6. Settings → General → Social preview 可以上传从 `assets/cover.svg` 导出 PNG 格式的封面图，不能用模拟订单后台截图。
 
 ## 更新内容及发布验收
 
