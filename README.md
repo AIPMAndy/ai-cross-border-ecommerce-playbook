@@ -6,6 +6,8 @@
 
 **从目标市场、真实需求、选品、供应商、收款、物流，到 AI 内容、第一笔订单与长期利润的免费开源教程。**
 
+**作者联系：微信 `AIPMAndy` · [个人官网 https://metaver.vip/](https://metaver.vip/) · [在线互动教程](https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/#contact)**
+
 **V2.0｜24 章 · 96 张操作卡 · 25 个可追溯案例 · 12 份深度手把手教程 · 30 天实战 · 路线诊断 · 利润/现金/压力测试 · 16 套提示词**
 
 [![License: MIT](https://img.shields.io/badge/代码-MIT-1d6df2)](LICENSE) [![Content: CC BY 4.0](https://img.shields.io/badge/教程-CC_BY_4.0-536b91)](LICENSE-CONTENT.md) [![Static website](https://img.shields.io/badge/网站-纯静态_可离线-4f729e)](index.html) [![Maintainer](https://img.shields.io/badge/作者-AI酋长Andy-122e5c)](https://github.com/AIPMAndy)
@@ -168,3 +170,13 @@ git push -u origin main
 欢迎提交新案例：必须给出**商家/平台、原文URL、发布日期或事件日期、具体行为、结果的统计口径、是否真的使用AI**；无来源的“日入千刀”不收录。提交前阅读[贡献指南](CONTRIBUTING.md)。
 
 协议：代码 [MIT](LICENSE)，教程、原创文字和原创教学素材 [CC BY 4.0](LICENSE-CONTENT.md)；商家品牌、商标及第三方原文链接分别属于其权利人，引用不意味着背书。
+
+## 联系作者与商业合作
+
+**AI 酋长 Andy**
+
+- 个人微信：`AIPMAndy`（添加可备注「跨境电商」）
+- 个人官网：[metaver.vip](https://metaver.vip/)
+- 开源互动网站：[打开联系区](https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/#contact)
+
+教程免费开放。AI 跨境电商、企业业务、供应链合作或 AI 产品化实践方面，可通过以上渠道联系。

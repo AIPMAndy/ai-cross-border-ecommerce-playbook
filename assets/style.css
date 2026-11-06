@@ -24,3 +24,28 @@
 .stress-loss{color:#f77e83!important;font-weight:800}.stress-ok{font-weight:700}.cash-layout{grid-template-columns:1.2fr 1fr}.cash-result{display:flex;flex-direction:column;justify-content:center;background:#f2f7fc}.cash-result strong{font-size:clamp(38px,5vw,62px);letter-spacing:-.055em;color:#0b3766}.cash-result p{color:#50677b;line-height:1.6}.cash-result a{font-weight:700;color:#13599d;margin-top:12px}
 @media(max-width:860px){.advisor-layout,.cash-layout{grid-template-columns:1fr}.advisor-form{grid-template-columns:1fr 1fr}}
 @media(max-width:540px){.advisor-form,.advisor-result,.cash-result{padding:18px;border-radius:14px}.advisor-form{grid-template-columns:1fr}.starter-strip{gap:10px;padding:16px}.starter-strip a{white-space:normal}.cash-result strong{font-size:46px}}
+
+/* Author contact · visible in homepage, mobile and offline build */
+.hero-contact{font-size:13px;line-height:1.8;margin:18px 0 0;color:#52647c}
+.hero-contact strong{color:#163c80;user-select:all}
+.hero-contact a{color:#1768dc;font-weight:750;text-decoration:underline;text-underline-offset:3px}
+.andy-contact{scroll-margin-top:96px}
+.andy-contact-card{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(240px,.85fr);overflow:hidden;border:1px solid #dce5f0;border-radius:24px;box-shadow:0 22px 70px rgba(35,81,127,.08);background:#fff}
+.andy-contact-main{padding:clamp(26px,4vw,52px)}
+.andy-contact-kicker{font-size:11px;font-weight:850;letter-spacing:.16em;color:#1768dc}
+.andy-contact h2{font-size:clamp(25px,3.2vw,42px);letter-spacing:-.045em;margin:14px 0}
+.andy-contact p{line-height:1.8;color:#53667b}
+.andy-contact-details{display:flex;gap:18px;flex-wrap:wrap;margin-top:26px}
+.andy-contact-detail{display:flex;flex-direction:column;align-items:flex-start;gap:8px;border:1px solid #e0e8f2;background:#f7fbff;border-radius:14px;padding:16px 20px;min-width:185px}
+.andy-contact-detail>span{font-size:12px;color:#67758a}
+.andy-contact-detail strong,.andy-contact-detail a{font-size:19px;letter-spacing:-.02em;color:#173c72;font-weight:850}
+.andy-copy{cursor:pointer;border:1px solid #a9c4ef;border-radius:8px;color:#155abd;background:#fff;padding:8px 12px;font-weight:750;font-size:12px}
+.andy-copy:hover,.andy-copy:focus-visible{border-color:#236dec;background:#edf5ff}
+.andy-copy-result{font-size:12px;min-height:22px;margin:12px 0 0}
+.andy-contact-side{background:linear-gradient(155deg,#0b2b56,#1763c6);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:20px;padding:clamp(26px,3vw,42px)}
+.andy-contact-side>span{font-size:12px;color:#d6e8ff;letter-spacing:.1em}
+.andy-contact-side>strong{font-size:clamp(25px,2.6vw,34px);line-height:1.28;letter-spacing:-.04em}
+.andy-site-cta{display:inline-flex;align-items:center;gap:12px;border-radius:10px;padding:12px 16px;background:#fff;color:#11467c;font-size:13px;font-weight:850}
+.andy-site-cta:hover{background:#e6f3ff}
+@media(max-width:800px){.andy-contact-card{grid-template-columns:1fr}.andy-contact-side{min-height:215px}}
+@media(max-width:540px){.andy-contact{padding-top:24px;padding-bottom:24px}.andy-contact-card{border-radius:18px}.andy-contact-main{padding:24px 20px}.andy-contact-details{flex-direction:column}.andy-contact-detail{width:100%}.hero-contact{font-size:12px}}

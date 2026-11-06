@@ -28,3 +28,23 @@ class IntegrityTests(unittest.TestCase):
   p=subprocess.run([sys.executable,str(R/"scripts/check.py")],
                    capture_output=True,text=True,cwd=R)
   self.assertEqual(p.returncode,0,p.stdout+p.stderr)
+
+
+class AuthorContactTests(unittest.TestCase):
+ def test_contact_in_live_homepage(self):
+  s=(R/"index.html").read_text(encoding="utf-8")
+  self.assertIn('id="contact"',s)
+  self.assertIn("AIPMAndy",s)
+  self.assertIn("https://metaver.vip/",s)
+ def test_contact_in_offline_homepage(self):
+  s=(R/"offline.html").read_text(encoding="utf-8")
+  self.assertIn('id="contact"',s)
+  self.assertIn("AIPMAndy",s)
+  self.assertIn("https://metaver.vip/",s)
+ def test_contact_in_readme(self):
+  s=(R/"README.md").read_text(encoding="utf-8")
+  self.assertIn("个人微信：`AIPMAndy`",s)
+  self.assertIn("https://metaver.vip/",s)
+ def test_copy_button_has_handler(self):
+  self.assertIn('id="copyAndyWechat"',(R/"index.html").read_text(encoding="utf-8"))
+  self.assertIn("clipboard.writeText",(R/"assets/app.js").read_text(encoding="utf-8"))

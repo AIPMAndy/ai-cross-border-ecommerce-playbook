@@ -56,5 +56,28 @@ q('routeAdvisor').addEventListener('submit',advise);
 function updateCash(){const fields=['cashUnits','cashCogs','cashFreight','cashSamples','cashAds','cashSetup','cashBuffer'];const v=fields.map(id=>{let el=q(id);return el.value.trim()===''||!el.checkValidity()?NaN:Number(el.value)});if(v.some(x=>!Number.isFinite(x)||x<0)||!Number.isInteger(v[0])){q('cashTotal').textContent='—';q('cashComment').textContent='请填写合法且非负的金额、整数件数与0–100%的缓冲比例。';return;}const [units,cogs,freight,samples,ads,setup,buffer]=v;const cost=(units*cogs+freight+samples+ads+setup)*(1+buffer/100);q('cashTotal').textContent=money(cost);q('cashComment').textContent=`${units}件样本开卖前预备现金（不含分期结算时间表）。这只是输入假设；需要实际报价和现金日历。`;}
 q('cashForm').addEventListener('input',updateCash);updateCash();
 
+
+const andyCopyBtn=q('copyAndyWechat');
+if(andyCopyBtn){
+  andyCopyBtn.addEventListener('click',async ()=>{
+    const value='AIPMAndy';
+    const status=q('andyCopyResult');
+    try{
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        await navigator.clipboard.writeText(value);
+      }else{
+        const input=document.createElement('textarea');
+        input.value=value;input.style.position='fixed';input.style.left='-9999px';
+        document.body.appendChild(input);input.select();
+        const ok=document.execCommand('copy');input.remove();
+        if(!ok)throw new Error('copy blocked');
+      }
+      status.textContent='已复制微信号 AIPMAndy。添加时可备注“跨境电商”。';
+    }catch(_error){
+      status.textContent='无法自动复制。请手动复制上方微信号：AIPMAndy';
+    }
+  });
+}
+
 })();
 });

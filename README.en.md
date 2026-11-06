@@ -23,3 +23,7 @@ python3 -m unittest discover -s tests -v
 `offline.html` bundles the site CSS, JS and data into a single file. Some linked source material still needs internet or the full repository. Content and code are licensed separately (CC BY 4.0 / MIT).
 
 **Author:** AI 酋长 Andy — [GitHub](https://github.com/AIPMAndy) · [Website](https://metaver.vip/). Remote repository publication is not implied by having a local ZIP. Consult [PUBLISH.md](PUBLISH.md).
+
+## Contact the author
+
+AI Chief Andy · WeChat: `AIPMAndy` · Personal website: https://metaver.vip/ · [Website contact section](https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/#contact)
