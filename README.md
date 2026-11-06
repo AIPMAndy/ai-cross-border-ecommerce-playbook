@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/site-screenshot.png" alt="AI跨境电商赚钱实战手册真实网页首屏截图" width="100%">
+<img src="assets/cover.svg" alt="AI跨境电商赚钱实战手册开源封面" width="100%">
 
 # 人人都能用 AI 做跨境电商
 
@@ -141,7 +141,7 @@ python3 scripts/check.py
 python3 -m unittest discover -s tests -v
 ```
 
-**注意**：重新运行 `scripts/build_content.py` 将重建操作卡、章节和案例JSON，维护源在该文件的人工策展数据；不要直接修改生成文件。复制内容、真实案例或政策时要补原始来源，不要生成假截图。
+**注意**：编辑 `data/chapters.json`、`data/cards.json`、`data/cases.json` 和 `data/plan.json` 后运行 `python3 scripts/build_content.py` 生成前端可用的 `data/site-data.js`；再运行 `python3 scripts/build_offline.py` 更新单文件版。对实际案例和政策请留原始来源。复制内容、真实案例或政策时要补原始来源，不要生成假截图。
 
 ## GitHub Pages 开源发布
 
