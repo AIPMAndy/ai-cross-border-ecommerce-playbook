@@ -1,0 +1,170 @@
+[
+  {
+    "id": "01",
+    "title": "确定真正的目标",
+    "stage": "定位",
+    "thesis": "跨境赚钱的最小单位是每单可兑现的现金贡献，不是店铺数量。",
+    "file": "chapters/01.md"
+  },
+  {
+    "id": "02",
+    "title": "国别与平台资格",
+    "stage": "定位",
+    "thesis": "先看主体与平台准入，再谈流量。",
+    "file": "chapters/02.md"
+  },
+  {
+    "id": "03",
+    "title": "寻找细分需求",
+    "stage": "需求",
+    "thesis": "不是看销量榜模仿爆品，而是找客户反复抱怨的痛点。",
+    "file": "chapters/03.md"
+  },
+  {
+    "id": "04",
+    "title": "竞品拆解与价格带",
+    "stage": "需求",
+    "thesis": "竞争不是坏事；只有高竞争且无差异化才危险。",
+    "file": "chapters/04.md"
+  },
+  {
+    "id": "05",
+    "title": "AI辅助选品评分",
+    "stage": "需求",
+    "thesis": "AI负责筛选候选，不负责虚构销量。",
+    "file": "chapters/05.md"
+  },
+  {
+    "id": "06",
+    "title": "供应商开发与样品",
+    "stage": "供应链",
+    "thesis": "商品质量不是AI能替你承担的。",
+    "file": "chapters/06.md"
+  },
+  {
+    "id": "07",
+    "title": "物流和履约选择",
+    "stage": "供应链",
+    "thesis": "跨境的真正承诺是货能按约定到手。",
+    "file": "chapters/07.md"
+  },
+  {
+    "id": "08",
+    "title": "税费与商品合规",
+    "stage": "供应链",
+    "thesis": "收得到钱不代表能合法、可靠地交付。",
+    "file": "chapters/08.md"
+  },
+  {
+    "id": "09",
+    "title": "财务模型与最低利润",
+    "stage": "经济",
+    "thesis": "没有算清净贡献前，不存在好卖的商品。",
+    "file": "chapters/09.md"
+  },
+  {
+    "id": "10",
+    "title": "AI创建英文商品页",
+    "stage": "转化",
+    "thesis": "AI可以写第一稿，但产品事实必须来自样品。",
+    "file": "chapters/10.md"
+  },
+  {
+    "id": "11",
+    "title": "AI图片与短视频",
+    "stage": "转化",
+    "thesis": "创意可以AI生成，商品实体不能被虚构成另一个东西。",
+    "file": "chapters/11.md"
+  },
+  {
+    "id": "12",
+    "title": "店铺与首款上架",
+    "stage": "转化",
+    "thesis": "先让陌生人能理解商品，不追求一开始就把网站做漂亮。",
+    "file": "chapters/12.md"
+  },
+  {
+    "id": "13",
+    "title": "Amazon上架和FBA/FBM",
+    "stage": "渠道",
+    "thesis": "平台生意更像履约与运营考试，不是搭站比赛。",
+    "file": "chapters/13.md"
+  },
+  {
+    "id": "14",
+    "title": "Shopify与POD路径",
+    "stage": "渠道",
+    "thesis": "无库存不等于零现金风险。",
+    "file": "chapters/14.md"
+  },
+  {
+    "id": "15",
+    "title": "B2B出口与批发",
+    "stage": "渠道",
+    "thesis": "成交一个稳定买家，有时比无差别投上千次广告更重要。",
+    "file": "chapters/15.md"
+  },
+  {
+    "id": "16",
+    "title": "TikTok/短视频获客",
+    "stage": "获客",
+    "thesis": "短视频的任务是解释为什么买，不是把播放量当成交。",
+    "file": "chapters/16.md"
+  },
+  {
+    "id": "17",
+    "title": "Google搜索与SEO",
+    "stage": "获客",
+    "thesis": "当用户已在搜索问题时，优质答案比泛流量值钱。",
+    "file": "chapters/17.md"
+  },
+  {
+    "id": "18",
+    "title": "广告小额验证",
+    "stage": "获客",
+    "thesis": "投放是购买反馈，不是购买确定收入。",
+    "file": "chapters/18.md"
+  },
+  {
+    "id": "19",
+    "title": "邮件和复购",
+    "stage": "增长",
+    "thesis": "只有先完成交付和客户同意，复购才值得讨论。",
+    "file": "chapters/19.md"
+  },
+  {
+    "id": "20",
+    "title": "客服、退款与差评",
+    "stage": "增长",
+    "thesis": "差评本身是一份免费的产品研发报告。",
+    "file": "chapters/20.md"
+  },
+  {
+    "id": "21",
+    "title": "数据看板与复盘",
+    "stage": "增长",
+    "thesis": "只追踪能改变决策的数字。",
+    "file": "chapters/21.md"
+  },
+  {
+    "id": "22",
+    "title": "AI协作与自动化",
+    "stage": "增长",
+    "thesis": "先让AI处理重复文本，再让程序处理重复数据。",
+    "file": "chapters/22.md"
+  },
+  {
+    "id": "23",
+    "title": "三条实战演练",
+    "stage": "实践",
+    "thesis": "案例必须能看见每一步，而不只是最终结果。",
+    "file": "chapters/23.md"
+  },
+  {
+    "id": "24",
+    "title": "30天冲刺与持续迭代",
+    "stage": "实践",
+    "thesis": "30天的成果是跑通可核验的链路，不是保证赚到钱。",
+    "file": "chapters/24.md"
+  }
+]

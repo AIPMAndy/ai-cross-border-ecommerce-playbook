@@ -1,0 +1,1841 @@
+[
+  {
+    "id": "01-01",
+    "chapter": "01",
+    "stage": "定位",
+    "title": "确定客户与目标国",
+    "goal": "用一句话定义目标用户",
+    "steps": [
+      "1. 打开决策模板，先填所在国家、合法主体、可承受损失与目标用户；不清楚的项目先留空。",
+      "2. 写下国家、细分人群、购买场景、目前替代方案",
+      "3. 只选一个组合",
+      "4. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“1张目标用户卡与3条原始需求证据”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "1张目标用户卡与3条原始需求证据",
+    "when_stuck": "需求太泛则缩到一类具体使用场景",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "01-02",
+    "chapter": "01",
+    "stage": "定位",
+    "title": "给起步设置止损线",
+    "goal": "事先限制不可逆成本",
+    "steps": [
+      "1. 打开决策模板，先填所在国家、合法主体、可承受损失与目标用户；不清楚的项目先留空。",
+      "2. 列出可损失总额、每周时数、预计首笔开支",
+      "3. 设定何时停止",
+      "4. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“带金额和日期的止损卡”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "带金额和日期的止损卡",
+    "when_stuck": "现金不足先用免费的访谈与商品页草稿验证",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "01-03",
+    "chapter": "01",
+    "stage": "定位",
+    "title": "确认能否合法收钱",
+    "goal": "在建店前核对资格",
+    "steps": [
+      "1. 打开决策模板，先填所在国家、合法主体、可承受损失与目标用户；不清楚的项目先留空。",
+      "2. 查看主体所在地、银行、收款服务支持国别、品类与结算周期",
+      "3. 保存官方截图",
+      "4. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“支付资格矩阵+官方链接+核验日期”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "支付资格矩阵+官方链接+核验日期",
+    "when_stuck": "不符合资格就换合法平台或延后开店，不借身份冒用",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "01-04",
+    "chapter": "01",
+    "stage": "定位",
+    "title": "选一条最短路径",
+    "goal": "只做一条最小验证",
+    "steps": [
+      "1. 打开决策模板，先填所在国家、合法主体、可承受损失与目标用户；不清楚的项目先留空。",
+      "2. 在Amazon、Shopify+POD、自有数字商品、B2B中评分",
+      "3. 写明退出条件",
+      "4. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“路线选择单和首个成功事件定义”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "路线选择单和首个成功事件定义",
+    "when_stuck": "多个方向都好时选最容易拿到真实询盘的",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "02-01",
+    "chapter": "02",
+    "stage": "定位",
+    "title": "中国大陆Amazon入驻核对",
+    "goal": "确定资料完整性",
+    "steps": [
+      "1. 打开官方规则索引，确认经营主体所在国家、目标销售国及拟选平台；按日期保存官方资格页。",
+      "2. 按Amazon中国卖家官方指南核对营业执照、法人身份证、可支付国际卡、收款银行与地址",
+      "3. 将结果填写到「research/sources.md」或对应记录表，并按“材料清单及缺口项”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "材料清单及缺口项",
+    "when_stuck": "验证失败先补材料，不购买来历不明卖家账号",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "02-02",
+    "chapter": "02",
+    "stage": "定位",
+    "title": "Shopify收款资格核对",
+    "goal": "保证能做收款测试",
+    "steps": [
+      "1. 打开官方规则索引，确认经营主体所在国家、目标销售国及拟选平台；按日期保存官方资格页。",
+      "2. 查看Shopify Payments中国早期开放资格、第三方提供商与费用",
+      "3. 区分大陆/香港",
+      "4. 将结果填写到「research/sources.md」或对应记录表，并按“支付通道书面可用证据”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "支付通道书面可用证据",
+    "when_stuck": "无可用通道则不要买主题或投广告",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "02-03",
+    "chapter": "02",
+    "stage": "定位",
+    "title": "Etsy/TikTok适用性核验",
+    "goal": "杜绝不支持地域开店",
+    "steps": [
+      "1. 打开官方规则索引，确认经营主体所在国家、目标销售国及拟选平台；按日期保存官方资格页。",
+      "2. Etsy核验中国大陆新店限制",
+      "3. TikTok Shop使用经营所在地官方入驻入口核验，不靠中介口径",
+      "4. 将结果填写到「research/sources.md」或对应记录表，并按“平台可/不可用记录与截图”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "平台可/不可用记录与截图",
+    "when_stuck": "不支持时选其他合规路径，禁止借壳注册",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "02-04",
+    "chapter": "02",
+    "stage": "定位",
+    "title": "国家合规速查",
+    "goal": "先知道产品能否卖",
+    "steps": [
+      "1. 打开官方规则索引，确认经营主体所在国家、目标销售国及拟选平台；按日期保存官方资格页。",
+      "2. 选美国或欧盟一个市场，查品类销售/材质/标签/进口要求，记录需进一步确认事项",
+      "3. 将结果填写到「research/sources.md」或对应记录表，并按“一页国别-品类准入表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "一页国别-品类准入表",
+    "when_stuck": "复杂监管品类（食品、儿童、医疗）先换低风险品类",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "03-01",
+    "chapter": "03",
+    "stage": "需求",
+    "title": "收集30条原始需求",
+    "goal": "找到未满足的问题",
+    "steps": [
+      "1. 打开市场研究CSV，用真实公开评价与问答建立第一条需求记录，至少保留原文网址和日期。",
+      "2. 检索目标国家公开评论、论坛、店铺Q&A",
+      "3. 存原始链接、日期、摘要",
+      "4. 将结果填写到「templates/market-research.csv」或对应记录表，并按“30条带出处的用户问题”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "30条带出处的用户问题",
+    "when_stuck": "无30条则扩大相邻场景，不写AI臆测评论",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "03-02",
+    "chapter": "03",
+    "stage": "需求",
+    "title": "归纳5种购买动机",
+    "goal": "识别愿意付费的理由",
+    "steps": [
+      "1. 打开市场研究CSV，用真实公开评价与问答建立第一条需求记录，至少保留原文网址和日期。",
+      "2. 让AI归类便利、颜值、礼品、节省时间等主题，逐条人工核对",
+      "3. 将结果填写到「templates/market-research.csv」或对应记录表，并按“5类动机及代表原文”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "5类动机及代表原文",
+    "when_stuck": "AI归纳不一致则回到原文手工标注",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "03-03",
+    "chapter": "03",
+    "stage": "需求",
+    "title": "访谈5位目标用户",
+    "goal": "验证真实使用场景",
+    "steps": [
+      "1. 打开市场研究CSV，用真实公开评价与问答建立第一条需求记录，至少保留原文网址和日期。",
+      "2. 问上次购买或遇到问题的时间、解决方式、价格、为何放弃",
+      "3. 不问你会买吗",
+      "4. 将结果填写到「templates/market-research.csv」或对应记录表，并按“匿名访谈表5行”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "匿名访谈表5行",
+    "when_stuck": "无法访谈先分析真实购买后评价",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "03-04",
+    "chapter": "03",
+    "stage": "需求",
+    "title": "产出3个可测小需求",
+    "goal": "缩减候选范围",
+    "steps": [
+      "1. 打开市场研究CSV，用真实公开评价与问答建立第一条需求记录，至少保留原文网址和日期。",
+      "2. 每个候选写清人群、问题、现有方案不足、对应产品",
+      "3. 将结果填写到「templates/market-research.csv」或对应记录表，并按“三张机会卡”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "三张机会卡",
+    "when_stuck": "需求表达模糊则把适用人群再缩窄",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "04-01",
+    "chapter": "04",
+    "stage": "需求",
+    "title": "保存10个直接竞品",
+    "goal": "建立市场基线",
+    "steps": [
+      "1. 打开竞品表，选择同一国家、同类用途商品；只摘录网页实际能查到的售价与规格。",
+      "2. 记录同一国家同一需求的10个在售商品、售价、规格、配送承诺",
+      "3. 将结果填写到「templates/competitors.csv」或对应记录表，并按“竞品CSV 10行且有链接”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/competitors.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "竞品CSV 10行且有链接",
+    "when_stuck": "搜不到同类产品，检查关键词翻译与当地表达",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "04-02",
+    "chapter": "04",
+    "stage": "需求",
+    "title": "抓取差评与退货线索",
+    "goal": "寻找真实不满",
+    "steps": [
+      "1. 打开竞品表，选择同一国家、同类用途商品；只摘录网页实际能查到的售价与规格。",
+      "2. 记录至少20条一二星公开评论，标注质量、尺寸、包装、到货等",
+      "3. 将结果填写到「templates/competitors.csv」或对应记录表，并按“20条评论及分类统计”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/competitors.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "20条评论及分类统计",
+    "when_stuck": "无可见差评时不猜测，换可观察的竞品",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "04-03",
+    "chapter": "04",
+    "stage": "需求",
+    "title": "绘制价格-价值矩阵",
+    "goal": "避免仅靠降价",
+    "steps": [
+      "1. 打开竞品表，选择同一国家、同类用途商品；只摘录网页实际能查到的售价与规格。",
+      "2. 按售价与最能解决的痛点画四象限，标出拟进入的位置",
+      "3. 将结果填写到「templates/competitors.csv」或对应记录表，并按“竞争定位图或表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/competitors.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "竞争定位图或表",
+    "when_stuck": "无明显差异不启动采购",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "04-04",
+    "chapter": "04",
+    "stage": "需求",
+    "title": "推演价位与利润",
+    "goal": "排除虚高售价假设",
+    "steps": [
+      "1. 打开竞品表，选择同一国家、同类用途商品；只摘录网页实际能查到的售价与规格。",
+      "2. 按同类商品实际售价取保守、中性、乐观三档并做成本试算",
+      "3. 将结果填写到「templates/competitors.csv」或对应记录表，并按“三档价格假设+报价来源”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/competitors.csv",
+    "deep_dive": "playbooks/02-demand.md",
+    "deliverable": "三档价格假设+报价来源",
+    "when_stuck": "利润为负先换规格/渠道，不盲目提价",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "05-01",
+    "chapter": "05",
+    "stage": "需求",
+    "title": "建立20个候选",
+    "goal": "宽进严出",
+    "steps": [
+      "1. 拿第3至4章的需求和竞品表做输入，不用AI凭空填写销量或需求。",
+      "2. 从公开搜索、需求卡与供应链能力列20个候选，去除侵权和高监管品类",
+      "3. 将结果填写到「templates/market-research.csv」或对应记录表，并按“候选商品表20行”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/03-sku-score.md",
+    "deliverable": "候选商品表20行",
+    "when_stuck": "缺素材就从目标用户同一场景扩展",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "05-02",
+    "chapter": "05",
+    "stage": "需求",
+    "title": "打分并注明证据",
+    "goal": "把判断与事实分开",
+    "steps": [
+      "1. 拿第3至4章的需求和竞品表做输入，不用AI凭空填写销量或需求。",
+      "2. 按需求证据/差异化/毛利/物流/合规/竞争6维打分",
+      "3. 注明不确定值",
+      "4. 将结果填写到「templates/market-research.csv」或对应记录表，并按“带证据列的评分表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/03-sku-score.md",
+    "deliverable": "带证据列的评分表",
+    "when_stuck": "证据缺失记未知，不自动填高分",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "05-03",
+    "chapter": "05",
+    "stage": "需求",
+    "title": "选前3名做询价",
+    "goal": "把纸上利润变成报价",
+    "steps": [
+      "1. 拿第3至4章的需求和竞品表做输入，不用AI凭空填写销量或需求。",
+      "2. 每个候选找至少两家独立供应商，拿样品价与物流约束",
+      "3. 将结果填写到「templates/market-research.csv」或对应记录表，并按“6份可追溯报价或沟通记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/03-sku-score.md",
+    "deliverable": "6份可追溯报价或沟通记录",
+    "when_stuck": "找不到供应商就降低优先级",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "05-04",
+    "chapter": "05",
+    "stage": "需求",
+    "title": "明确淘汰条件",
+    "goal": "提前拒绝不良商品",
+    "steps": [
+      "1. 拿第3至4章的需求和竞品表做输入，不用AI凭空填写销量或需求。",
+      "2. 规定交付周期、单笔贡献、售后复杂性、采购起订量上限",
+      "3. 将结果填写到「templates/market-research.csv」或对应记录表，并按“选品Go/No-Go决定”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/market-research.csv",
+    "deep_dive": "playbooks/03-sku-score.md",
+    "deliverable": "选品Go/No-Go决定",
+    "when_stuck": "没拿到总成本不允许进入上架步骤",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "06-01",
+    "chapter": "06",
+    "stage": "供应链",
+    "title": "筛选3个供应商",
+    "goal": "减少单点失效",
+    "steps": [
+      "1. 打开供应商对比表，固定同一材料、尺寸、数量、目的国和贸易条款，防止报价不可比。",
+      "2. 询问营业资质、交期、MOQ、材料规格、交付历史、验厂资料",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“供应商对比表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "供应商对比表",
+    "when_stuck": "单一供应商时降低投入并预备替代品",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "06-02",
+    "chapter": "06",
+    "stage": "供应链",
+    "title": "发送结构化RFQ",
+    "goal": "拿到可比报价",
+    "steps": [
+      "1. 打开供应商对比表，固定同一材料、尺寸、数量、目的国和贸易条款，防止报价不可比。",
+      "2. 同规格同时询问1/10/100件单价、包装、运费、税费承担与交期",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“至少2份同口径报价”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "至少2份同口径报价",
+    "when_stuck": "报价条件不一致要求重报价",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "06-03",
+    "chapter": "06",
+    "stage": "供应链",
+    "title": "下样与验收",
+    "goal": "验证卖点是否真实",
+    "steps": [
+      "1. 打开供应商对比表，固定同一材料、尺寸、数量、目的国和贸易条款，防止报价不可比。",
+      "2. 实物检查尺寸、颜色、气味、包装、耐用性，拍真实照片与记录",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“样品测试报告和真实素材”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "样品测试报告和真实素材",
+    "when_stuck": "样品不达标则淘汰，不用AI修图掩盖缺陷",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "06-04",
+    "chapter": "06",
+    "stage": "供应链",
+    "title": "谈清售后与缺陷责任",
+    "goal": "让缺陷有可执行处理",
+    "steps": [
+      "1. 打开供应商对比表，固定同一材料、尺寸、数量、目的国和贸易条款，防止报价不可比。",
+      "2. 书面明确少发、破损、迟发、退款/补发、凭证与处理时限",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“供应商异常处理约定”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "供应商异常处理约定",
+    "when_stuck": "对方不愿确认责任则更换供应商",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "07-01",
+    "chapter": "07",
+    "stage": "供应链",
+    "title": "比较3种履约",
+    "goal": "对比POD/直发/备货FBA",
+    "steps": [
+      "1. 记录实测包装尺寸与目的邮编，要求物流商提供包含附加费的书面报价。",
+      "2. 列时效、可追踪性、单位费用、退货地址、现金占用",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“履约方案对比表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "履约方案对比表",
+    "when_stuck": "时效不可控时把承诺写保守并先小单",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "07-02",
+    "chapter": "07",
+    "stage": "供应链",
+    "title": "试算重量和尺寸",
+    "goal": "计算完整到手成本",
+    "steps": [
+      "1. 记录实测包装尺寸与目的邮编，要求物流商提供包含附加费的书面报价。",
+      "2. 录入包装后重量、长宽高、目的邮编与物流报价，计入偏远附加费",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“商品级物流报价单”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "商品级物流报价单",
+    "when_stuck": "未测量则不要使用卖家广告中的最低运费",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "07-03",
+    "chapter": "07",
+    "stage": "供应链",
+    "title": "完成一笔试发",
+    "goal": "检查真实轨迹",
+    "steps": [
+      "1. 记录实测包装尺寸与目的邮编，要求物流商提供包含附加费的书面报价。",
+      "2. 向允许的测试地址寄样，记录揽收、转运、签收、破损、税费",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“全流程追踪截图和耗时”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "全流程追踪截图和耗时",
+    "when_stuck": "试发失败先改物流不扩量",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "07-04",
+    "chapter": "07",
+    "stage": "供应链",
+    "title": "设计异常履约SOP",
+    "goal": "降低争议损失",
+    "steps": [
+      "1. 记录实测包装尺寸与目的邮编，要求物流商提供包含附加费的书面报价。",
+      "2. 给丢件、破损、延迟、退回分别写客户通知和补偿动作",
+      "3. 将结果填写到「templates/suppliers.csv」或对应记录表，并按“4条异常处理卡”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/suppliers.csv",
+    "deep_dive": "playbooks/04-suppliers.md",
+    "deliverable": "4条异常处理卡",
+    "when_stuck": "无法追踪先主动联系承运商与买家",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "08-01",
+    "chapter": "08",
+    "stage": "供应链",
+    "title": "核对SKU品类管制",
+    "goal": "避开潜在不可售商品",
+    "steps": [
+      "1. 打开目标国官方法规或平台规则入口，对应品类建立“已核实/未知/不适用”三栏。",
+      "2. 按销售国家检索官方品类规定、认证要求、标签、安全标识",
+      "3. 将结果填写到「research/sources.md」或对应记录表，并按“SKU合规矩阵”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "SKU合规矩阵",
+    "when_stuck": "不明朗时换普通低监管品类",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "08-02",
+    "chapter": "08",
+    "stage": "供应链",
+    "title": "核对商标与内容版权",
+    "goal": "避免拿别人的品牌做生意",
+    "steps": [
+      "1. 打开目标国官方法规或平台规则入口，对应品类建立“已核实/未知/不适用”三栏。",
+      "2. 查询拟用品牌名与设计是否存在冲突，不使用无授权商标/角色/照片",
+      "3. 将结果填写到「research/sources.md」或对应记录表，并按“商标与素材授权记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "商标与素材授权记录",
+    "when_stuck": "查不到授权默认不得商用",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "08-03",
+    "chapter": "08",
+    "stage": "供应链",
+    "title": "确定关税/增值税口径",
+    "goal": "让报价能够落地",
+    "steps": [
+      "1. 打开目标国官方法规或平台规则入口，对应品类建立“已核实/未知/不适用”三栏。",
+      "2. 确认申报价值、HS编码、原产地、DDP/DDU责任、进口VAT适用情形",
+      "3. 将结果填写到「research/sources.md」或对应记录表，并按“成本表中各项税费来源”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "成本表中各项税费来源",
+    "when_stuck": "税务条件复杂时找专业服务者核验后才报价",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "08-04",
+    "chapter": "08",
+    "stage": "供应链",
+    "title": "核对美国与欧盟规则",
+    "goal": "筛掉明显违规上市",
+    "steps": [
+      "1. 打开目标国官方法规或平台规则入口，对应品类建立“已核实/未知/不适用”三栏。",
+      "2. 欧盟一般产品安全规则、美国产品安全与进口要求以适用官方页核验",
+      "3. 将结果填写到「research/sources.md」或对应记录表，并按“国别合规检查截图”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "research/sources.md",
+    "deep_dive": "playbooks/01-eligibility.md",
+    "deliverable": "国别合规检查截图",
+    "when_stuck": "儿童、食品、医药等先不纳入新手路线",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "09-01",
+    "chapter": "09",
+    "stage": "经济",
+    "title": "完整列成本栈",
+    "goal": "确认每单真正贡献",
+    "steps": [
+      "1. 打开网站第4区利润计算器，先填入来自实物报价的采购价、运费、费率与广告假设。",
+      "2. 计入采购、打包、头程、履约、税费、佣金、支付、退款预留、广告、汇损",
+      "3. 将结果填写到「index.html#calculator」或对应记录表，并按“单SKU成本表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "index.html#calculator",
+    "deep_dive": "playbooks/05-economics.md",
+    "deliverable": "单SKU成本表",
+    "when_stuck": "未知成本用范围，不假装是零",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "09-02",
+    "chapter": "09",
+    "stage": "经济",
+    "title": "计算盈亏平衡CPA",
+    "goal": "知道一单最多能花多少钱获客",
+    "steps": [
+      "1. 打开网站第4区利润计算器，先填入来自实物报价的采购价、运费、费率与广告假设。",
+      "2. 用售价减非广告变动成本得可承受CPA上限",
+      "3. 将结果填写到「index.html#calculator」或对应记录表，并按“利润计算器的截图和参数”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "index.html#calculator",
+    "deep_dive": "playbooks/05-economics.md",
+    "deliverable": "利润计算器的截图和参数",
+    "when_stuck": "贡献为负立即停止投广告",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "09-03",
+    "chapter": "09",
+    "stage": "经济",
+    "title": "测试三种极端情况",
+    "goal": "看最坏情景是否会失控",
+    "steps": [
+      "1. 打开网站第4区利润计算器，先填入来自实物报价的采购价、运费、费率与广告假设。",
+      "2. 依次上调退货、运费、获客成本，再看净贡献变化",
+      "3. 将结果填写到「index.html#calculator」或对应记录表，并按“压力测试表三行”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "index.html#calculator",
+    "deep_dive": "playbooks/05-economics.md",
+    "deliverable": "压力测试表三行",
+    "when_stuck": "最坏情景损失不可承担就减少订单规模",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "09-04",
+    "chapter": "09",
+    "stage": "经济",
+    "title": "区分利润与现金流",
+    "goal": "防止账面赚钱现金断裂",
+    "steps": [
+      "1. 打开网站第4区利润计算器，先填入来自实物报价的采购价、运费、费率与广告假设。",
+      "2. 记录先付款给供应商的时间、平台结算周期、退款与广告账期",
+      "3. 将结果填写到「index.html#calculator」或对应记录表，并按“现金流日历”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "index.html#calculator",
+    "deep_dive": "playbooks/05-economics.md",
+    "deliverable": "现金流日历",
+    "when_stuck": "结算差可能造成现金缺口，先留周转金",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "10-01",
+    "chapter": "10",
+    "stage": "转化",
+    "title": "准备商品事实表",
+    "goal": "构建不出错的输入",
+    "steps": [
+      "1. 从Prompt工具包第7或8条复制框架，先填写核验过的尺寸、材质、照片和配送事实。",
+      "2. 记录尺寸、材料、产地、实际用途、禁用场景、售后承诺、拍摄照片",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“事实清单已核对”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "事实清单已核对",
+    "when_stuck": "任何未验证卖点标为待确认",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "10-02",
+    "chapter": "10",
+    "stage": "转化",
+    "title": "生成3个英文标题",
+    "goal": "验证用户能看懂",
+    "steps": [
+      "1. 从Prompt工具包第7或8条复制框架，先填写核验过的尺寸、材质、照片和配送事实。",
+      "2. 要求AI按目标国口语生成3版，不堆砌关键词",
+      "3. 人工检查自然度",
+      "4. 将结果填写到「templates/prompts.md」或对应记录表，并按“3个标题与选择理由”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "3个标题与选择理由",
+    "when_stuck": "英语不自然就请母语者或专业审校",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "10-03",
+    "chapter": "10",
+    "stage": "转化",
+    "title": "写详情与FAQ",
+    "goal": "降低购买疑问",
+    "steps": [
+      "1. 从Prompt工具包第7或8条复制框架，先填写核验过的尺寸、材质、照片和配送事实。",
+      "2. 按使用场景→证据→规格→配送→退换货写，所有数据引用事实表",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“可发布详情页草稿”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "可发布详情页草稿",
+    "when_stuck": "AI捏造材质认证时删除并回到实测",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "10-04",
+    "chapter": "10",
+    "stage": "转化",
+    "title": "制作多语版本",
+    "goal": "避免机械翻译",
+    "steps": [
+      "1. 从Prompt工具包第7或8条复制框架，先填写核验过的尺寸、材质、照片和配送事实。",
+      "2. 选1种目标国本地语言，使用术语表翻译并比对尺寸单位、文化习惯",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“双语逐项核对记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "双语逐项核对记录",
+    "when_stuck": "本地用户反馈理解困难则请人工校对",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "11-01",
+    "chapter": "11",
+    "stage": "转化",
+    "title": "拍摄真实基础素材",
+    "goal": "保留商品可信证据",
+    "steps": [
+      "1. 先取得可商用的真实样品照片，再打开Prompt工具包第9或10条明确不允许变更的实物细节。",
+      "2. 自己拍白底、细节、手持对比与包装照片，记录拍摄日期",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“4张原创样品照片”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "4张原创样品照片",
+    "when_stuck": "没样品只能做内部概念图，不发布拟真承诺",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "11-02",
+    "chapter": "11",
+    "stage": "转化",
+    "title": "设计6组AI创意变量",
+    "goal": "一次只改一个因素",
+    "steps": [
+      "1. 先取得可商用的真实样品照片，再打开Prompt工具包第9或10条明确不允许变更的实物细节。",
+      "2. 固定真实商品图片与产品规格",
+      "3. 仅变场景、文案、构图等",
+      "4. 留提示词",
+      "5. 将结果填写到「templates/prompts.md」或对应记录表，并按“6组素材假设和生成记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "6组素材假设和生成记录",
+    "when_stuck": "颜色形状被AI篡改则废弃素材",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "11-03",
+    "chapter": "11",
+    "stage": "转化",
+    "title": "生成15秒产品短视频",
+    "goal": "突出可验证的核心用途",
+    "steps": [
+      "1. 先取得可商用的真实样品照片，再打开Prompt工具包第9或10条明确不允许变更的实物细节。",
+      "2. 脚本分痛点3秒、使用7秒、规格3秒、行动2秒",
+      "3. 可录真实手部操作",
+      "4. 将结果填写到「templates/prompts.md」或对应记录表，并按“短视频MP4与镜头脚本”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "短视频MP4与镜头脚本",
+    "when_stuck": "没有真实操作素材则先做图文而非拟真视频",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "11-04",
+    "chapter": "11",
+    "stage": "转化",
+    "title": "做广告素材事实审查",
+    "goal": "避免虚假对比与证言",
+    "steps": [
+      "1. 先取得可商用的真实样品照片，再打开Prompt工具包第9或10条明确不允许变更的实物细节。",
+      "2. 核查前后对比、功能效果、适用范围、肖像版权、平台AI披露",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“素材审核清单”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "素材审核清单",
+    "when_stuck": "难以证实的效果宣称改为实测描述",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "12-01",
+    "chapter": "12",
+    "stage": "转化",
+    "title": "配置基础信任页",
+    "goal": "让买家判断能否履约",
+    "steps": [
+      "1. 在正式上架前打开Go/No-Go表，列出商品事实、付款方式、时效和退换货缺口。",
+      "2. 完善联系方式、退换货、配送预计、隐私与联系渠道",
+      "3. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“4个基础页面可打开”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "4个基础页面可打开",
+    "when_stuck": "无法明确退货地址则先不承诺免费退货",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "12-02",
+    "chapter": "12",
+    "stage": "转化",
+    "title": "发布1个产品",
+    "goal": "只验证一个SKU",
+    "steps": [
+      "1. 在正式上架前打开Go/No-Go表，列出商品事实、付款方式、时效和退换货缺口。",
+      "2. 上传真实照片、描述、规格、价格、库存/生产周期、shipping zones",
+      "3. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“商品详情链接及截图”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "商品详情链接及截图",
+    "when_stuck": "看不到目的国配送方式就修设置",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "12-03",
+    "chapter": "12",
+    "stage": "转化",
+    "title": "走一次结账测试",
+    "goal": "检验支付与物流闭环",
+    "steps": [
+      "1. 在正式上架前打开Go/No-Go表，列出商品事实、付款方式、时效和退换货缺口。",
+      "2. 在平台支持的测试模式完成模拟下单、通知、税费和追踪流程",
+      "3. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“端到端测试记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "端到端测试记录",
+    "when_stuck": "测试失败暂停投放",
+    "time_min": 40,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "12-04",
+    "chapter": "12",
+    "stage": "转化",
+    "title": "检查手机端购买流程",
+    "goal": "解决移动端断点",
+    "steps": [
+      "1. 在正式上架前打开Go/No-Go表，列出商品事实、付款方式、时效和退换货缺口。",
+      "2. 用手机进入商品页→购物车→结账入口，观察字数、加载、按钮",
+      "3. 将结果填写到「templates/go-no-go.md」或对应记录表，并按“5张真实手机验收截图”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/go-no-go.md",
+    "deep_dive": "playbooks/06-listing-and-ai.md",
+    "deliverable": "5张真实手机验收截图",
+    "when_stuck": "按钮遮挡先改模板CSS",
+    "time_min": 25,
+    "priority": "必须",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "13-01",
+    "chapter": "13",
+    "stage": "渠道",
+    "title": "创建卖家资料并验证",
+    "goal": "按Amazon官方注册流程操作",
+    "steps": [
+      "1. 打开Amazon美国站完整演练，对照真实主体资料、类目条件和官方费用入口。",
+      "2. 使用真实企业材料，通过身份验证及税务访谈，选合适销售计划",
+      "3. 将结果填写到「examples/amazon-home.md」或对应记录表，并按“账号核验通过记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/amazon-home.md",
+    "deep_dive": "playbooks/11-amazon.md",
+    "deliverable": "账号核验通过记录",
+    "when_stuck": "失败走官方审核与申诉，拒绝黑灰号",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "13-02",
+    "chapter": "13",
+    "stage": "渠道",
+    "title": "核对类目与ASIN规则",
+    "goal": "避免无资格发布",
+    "steps": [
+      "1. 打开Amazon美国站完整演练，对照真实主体资料、类目条件和官方费用入口。",
+      "2. 确认品牌、GTIN/豁免、类目限制、合规文件与已有ASIN匹配",
+      "3. 将结果填写到「examples/amazon-home.md」或对应记录表，并按“合规SKU上架清单”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/amazon-home.md",
+    "deep_dive": "playbooks/11-amazon.md",
+    "deliverable": "合规SKU上架清单",
+    "when_stuck": "受限类目先换候选SKU",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "13-03",
+    "chapter": "13",
+    "stage": "渠道",
+    "title": "用官方费用计算器",
+    "goal": "对比FBA与自发货贡献",
+    "steps": [
+      "1. 打开Amazon美国站完整演练，对照真实主体资料、类目条件和官方费用入口。",
+      "2. 逐项填成本、包装尺寸、售价与履约方案，不复制别人佣金率",
+      "3. 将结果填写到「examples/amazon-home.md」或对应记录表，并按“两份完整费用预估”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/amazon-home.md",
+    "deep_dive": "playbooks/11-amazon.md",
+    "deliverable": "两份完整费用预估",
+    "when_stuck": "发货方案利润低则重新选渠道",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "13-04",
+    "chapter": "13",
+    "stage": "渠道",
+    "title": "复核首批补货阈值",
+    "goal": "避免库存压仓",
+    "steps": [
+      "1. 打开Amazon美国站完整演练，对照真实主体资料、类目条件和官方费用入口。",
+      "2. 根据实际订单、在途周期和安全库存做补货阈值，先小批",
+      "3. 将结果填写到「examples/amazon-home.md」或对应记录表，并按“补货表和触发条件”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/amazon-home.md",
+    "deep_dive": "playbooks/11-amazon.md",
+    "deliverable": "补货表和触发条件",
+    "when_stuck": "无真实销售数据不大批备货",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "14-01",
+    "chapter": "14",
+    "stage": "渠道",
+    "title": "验证支付和主体",
+    "goal": "先看店能否收钱",
+    "steps": [
+      "1. 打开POD完整演练，先核实本地区是否能合法收款，再调查样品与实际履约报价。",
+      "2. 选符合经营主体的支付通道，完成KYC，核对费率/冻结/结算",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“支付测试与结算说明”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "playbooks/10-pod.md",
+    "deliverable": "支付测试与结算说明",
+    "when_stuck": "未通过时不要接真实订单",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "14-02",
+    "chapter": "14",
+    "stage": "渠道",
+    "title": "寻找POD产品与产地",
+    "goal": "保证品质与时效",
+    "steps": [
+      "1. 打开POD完整演练，先核实本地区是否能合法收款，再调查样品与实际履约报价。",
+      "2. 查POD供应商是否覆盖目标国家，获取样品价、生产周期、物流费",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“供应商候选对比”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "playbooks/10-pod.md",
+    "deliverable": "供应商候选对比",
+    "when_stuck": "无法保证质量则不卖该产品",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "14-03",
+    "chapter": "14",
+    "stage": "渠道",
+    "title": "做一份原创设计",
+    "goal": "避免盗图与侵权",
+    "steps": [
+      "1. 打开POD完整演练，先核实本地区是否能合法收款，再调查样品与实际履约报价。",
+      "2. 围绕细分人群做原创文字/图案，检查字体与素材商业授权",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“可追溯设计源文件”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "playbooks/10-pod.md",
+    "deliverable": "可追溯设计源文件",
+    "when_stuck": "AI生成图存在第三方角色/商标则弃用",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "14-04",
+    "chapter": "14",
+    "stage": "渠道",
+    "title": "模拟一笔POD订单",
+    "goal": "核对先付货款和后收款",
+    "steps": [
+      "1. 打开POD完整演练，先核实本地区是否能合法收款，再调查样品与实际履约报价。",
+      "2. 从下单→生产→物流→退款把每笔现金发生时间写出来",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“订单与现金流演练表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "playbooks/10-pod.md",
+    "deliverable": "订单与现金流演练表",
+    "when_stuck": "预付供应商款不足则限制可售量",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "15-01",
+    "chapter": "15",
+    "stage": "渠道",
+    "title": "选2个采购商画像",
+    "goal": "不对所有采购员群发",
+    "steps": [
+      "1. 打开B2B出口演练，先确认工厂实际可供的品类、起订量、样品和资质。",
+      "2. 按行业、采购频率、订单规模、所在国、现用替代品定义买家",
+      "3. 将结果填写到「examples/b2b-supply.md」或对应记录表，并按“2张采购商画像”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/b2b-supply.md",
+    "deep_dive": "playbooks/09-b2b-export.md",
+    "deliverable": "2张采购商画像",
+    "when_stuck": "联系人不清就先识别目标企业的采购场景",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "15-02",
+    "chapter": "15",
+    "stage": "渠道",
+    "title": "做英文能力页",
+    "goal": "用真实交付能力获得信任",
+    "steps": [
+      "1. 打开B2B出口演练，先确认工厂实际可供的品类、起订量、样品和资质。",
+      "2. 列材质、认证、产能、样品、MOQ、交期、客户类型，不编造客户",
+      "3. 将结果填写到「examples/b2b-supply.md」或对应记录表，并按“英文一页纸+样品目录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/b2b-supply.md",
+    "deep_dive": "playbooks/09-b2b-export.md",
+    "deliverable": "英文一页纸+样品目录",
+    "when_stuck": "没有认证就公开标注待取得而非虚构",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "15-03",
+    "chapter": "15",
+    "stage": "渠道",
+    "title": "发送10封个性化询盘",
+    "goal": "测试采购需求",
+    "steps": [
+      "1. 打开B2B出口演练，先确认工厂实际可供的品类、起订量、样品和资质。",
+      "2. 每封包含对方业务理解、1个可验证能力、交期、样品提供方式",
+      "3. 将结果填写到「examples/b2b-supply.md」或对应记录表，并按“10封有对象的外联记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/b2b-supply.md",
+    "deep_dive": "playbooks/09-b2b-export.md",
+    "deliverable": "10封有对象的外联记录",
+    "when_stuck": "无人回复则优化客户匹配而非扩大群发",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "15-04",
+    "chapter": "15",
+    "stage": "渠道",
+    "title": "设计报价和合同信息",
+    "goal": "减少交付纠纷",
+    "steps": [
+      "1. 打开B2B出口演练，先确认工厂实际可供的品类、起订量、样品和资质。",
+      "2. 写Incoterms、MOQ、支付节点、打样确认、质检、争议处理",
+      "3. 将结果填写到「examples/b2b-supply.md」或对应记录表，并按“完整报价单模板”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/b2b-supply.md",
+    "deep_dive": "playbooks/09-b2b-export.md",
+    "deliverable": "完整报价单模板",
+    "when_stuck": "谈不拢履约责任就不报价成交",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "16-01",
+    "chapter": "16",
+    "stage": "获客",
+    "title": "确认平台地区/资质",
+    "goal": "只使用可实际运营的渠道",
+    "steps": [
+      "1. 打开广告实验表；先保存目标国家的真实视频链接和平台当前商业准入入口。",
+      "2. 核对TikTok Shop/社媒商业账号当地准入、商品类目、发货和广告规则",
+      "3. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“可经营渠道核验表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "可经营渠道核验表",
+    "when_stuck": "无法入驻Shop就将短视频用于独立站引流",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "16-02",
+    "chapter": "16",
+    "stage": "获客",
+    "title": "找到20条真实受欢迎视频",
+    "goal": "观察消费动机",
+    "steps": [
+      "1. 打开广告实验表；先保存目标国家的真实视频链接和平台当前商业准入入口。",
+      "2. 搜同目标国类似产品、保存发布时间与创意结构，不搬运镜头",
+      "3. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“20条竞品视频观察表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "20条竞品视频观察表",
+    "when_stuck": "播放未知不推测销量",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "16-03",
+    "chapter": "16",
+    "stage": "获客",
+    "title": "生成5条钩子并实拍",
+    "goal": "把卖点讲清楚",
+    "steps": [
+      "1. 打开广告实验表；先保存目标国家的真实视频链接和平台当前商业准入入口。",
+      "2. 制作演示/对比/教程/场景/问答五类15秒脚本，真人/真实产品可拍",
+      "3. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“5条原创视频素材”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "5条原创视频素材",
+    "when_stuck": "没有产品真相就删掉夸张脚本",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "16-04",
+    "chapter": "16",
+    "stage": "获客",
+    "title": "设置带来源的链接",
+    "goal": "知道内容是否带来购买",
+    "steps": [
+      "1. 打开广告实验表；先保存目标国家的真实视频链接和平台当前商业准入入口。",
+      "2. 为每条渠道配置不同UTM，记录点击、加购与订单",
+      "3. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“链接与渠道归因表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "链接与渠道归因表",
+    "when_stuck": "平台不支持直接外链则用允许的入口",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "17-01",
+    "chapter": "17",
+    "stage": "获客",
+    "title": "挖出30个长尾词",
+    "goal": "对准具体购买需求",
+    "steps": [
+      "1. 从Prompt工具包第12条开始，记录真实搜索建议和Q&A原文来源。",
+      "2. 按用途+规格+人群+问题搜目标国真实搜索建议、Q&A",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“关键词表30条含来源”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "关键词表30条含来源",
+    "when_stuck": "不能仅采信AI想象出来的搜索量",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "17-02",
+    "chapter": "17",
+    "stage": "获客",
+    "title": "划分购买意图",
+    "goal": "避免教程流量不买单",
+    "steps": [
+      "1. 从Prompt工具包第12条开始，记录真实搜索建议和Q&A原文来源。",
+      "2. 将关键词分信息/比较/购买意图，优先制作明确购买场景页",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“关键词意图标注”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "关键词意图标注",
+    "when_stuck": "没有商品与需求对应则不做该词",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "17-03",
+    "chapter": "17",
+    "stage": "获客",
+    "title": "写1篇实测比较页",
+    "goal": "提供购买前真正有用的信息",
+    "steps": [
+      "1. 从Prompt工具包第12条开始，记录真实搜索建议和Q&A原文来源。",
+      "2. 从真实样品与竞品参数做对比、插原创照片和常见问答",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“可公开比较文章1篇”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "可公开比较文章1篇",
+    "when_stuck": "无可证实数据就删掉排名与性能宣称",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "17-04",
+    "chapter": "17",
+    "stage": "获客",
+    "title": "接入搜索观测",
+    "goal": "测曝光到订单全过程",
+    "steps": [
+      "1. 从Prompt工具包第12条开始，记录真实搜索建议和Q&A原文来源。",
+      "2. 合法配置Search Console/Analytics或平台统计，记录搜索词、点击、订单",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“首周数据表和改动记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "首周数据表和改动记录",
+    "when_stuck": "未收录先排查索引可访问与站点设置",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "18-01",
+    "chapter": "18",
+    "stage": "获客",
+    "title": "设计最小广告实验",
+    "goal": "提前定义唯一变量",
+    "steps": [
+      "1. 打开广告实验表，先写本次测试的单一变量、费用上限和停投条件。",
+      "2. 确定商品、目标国、单组素材、预算封顶、目标行为、停止规则",
+      "3. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“实验卡和预算上限”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "实验卡和预算上限",
+    "when_stuck": "无利润上限则不投放",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "18-02",
+    "chapter": "18",
+    "stage": "获客",
+    "title": "核算可承受CPA",
+    "goal": "保证广告成本有边界",
+    "steps": [
+      "1. 打开广告实验表，先写本次测试的单一变量、费用上限和停投条件。",
+      "2. 从网站计算器得到每单非广告贡献，再扣目标利润得CPA上限",
+      "3. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“计算器输出截图”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "计算器输出截图",
+    "when_stuck": "CPA上限小于等于0则先改商品",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "18-03",
+    "chapter": "18",
+    "stage": "获客",
+    "title": "按预设阈值做复盘",
+    "goal": "避免随手改造成无法归因",
+    "steps": [
+      "1. 打开广告实验表，先写本次测试的单一变量、费用上限和停投条件。",
+      "2. 记录花费、展示、点击、加购、订单、归因窗口",
+      "3. 先排查事件回传",
+      "4. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“广告日报和问题列表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "广告日报和问题列表",
+    "when_stuck": "没有订单不要过早宣称广告无效",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "18-04",
+    "chapter": "18",
+    "stage": "获客",
+    "title": "停掉不成立的投放",
+    "goal": "按利润而不是情绪决策",
+    "steps": [
+      "1. 打开广告实验表，先写本次测试的单一变量、费用上限和停投条件。",
+      "2. 超过预设损失上限或利润不可持续时暂停，写下下一次要改变的变量",
+      "3. 将结果填写到「templates/ad-experiments.csv」或对应记录表，并按“停止报告/复盘卡”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/ad-experiments.csv",
+    "deep_dive": "playbooks/07-first-visitors.md",
+    "deliverable": "停止报告/复盘卡",
+    "when_stuck": "测试样本小则保留未知，不强行推出胜负",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "19-01",
+    "chapter": "19",
+    "stage": "增长",
+    "title": "设计订单确认邮件",
+    "goal": "减少售后咨询",
+    "steps": [
+      "1. 打开客服记录表，根据商店真实的物流、退货和订阅政策整理已知事实。",
+      "2. 包含订单摘要、预计时效、跟踪、联系方式，不用假紧迫性",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“中英文邮件模板”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "中英文邮件模板",
+    "when_stuck": "时效不明就给范围而非绝对到货日",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "19-02",
+    "chapter": "19",
+    "stage": "增长",
+    "title": "建立合法订阅机制",
+    "goal": "先确认用户授权",
+    "steps": [
+      "1. 打开客服记录表，根据商店真实的物流、退货和订阅政策整理已知事实。",
+      "2. 在目标国家核对许可/退订要求，保存订阅来源与退订入口",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“真实可测试订阅表单”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "真实可测试订阅表单",
+    "when_stuck": "没有同意记录不群发",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "19-03",
+    "chapter": "19",
+    "stage": "增长",
+    "title": "设置补货与售后触发",
+    "goal": "以合理消费周期联系客户",
+    "steps": [
+      "1. 打开客服记录表，根据商店真实的物流、退货和订阅政策整理已知事实。",
+      "2. 按产品真实复购周期设置提醒，避免频繁骚扰",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“3条自动化邮件规则”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "3条自动化邮件规则",
+    "when_stuck": "无法确定周期就先发售后满意度调查",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "19-04",
+    "chapter": "19",
+    "stage": "增长",
+    "title": "衡量毛利而非邮件归因炫耀",
+    "goal": "避免重复计算销售贡献",
+    "steps": [
+      "1. 打开客服记录表，根据商店真实的物流、退货和订阅政策整理已知事实。",
+      "2. 对比整体增量订单、折扣、退订、退款，不把工具归因营收当净利润",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“留存复盘表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "留存复盘表",
+    "when_stuck": "没有对照组则标注为观察",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "20-01",
+    "chapter": "20",
+    "stage": "增长",
+    "title": "建立英文客服回复库",
+    "goal": "减少回复时间但保留人工判断",
+    "steps": [
+      "1. 打开客服表，按订单匿名编号记录真实问题、承诺与处理状态。",
+      "2. 针对延迟、尺码、破损、退款、错件做五套回复",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“5条双语回复模板”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "5条双语回复模板",
+    "when_stuck": "争议订单以真实订单事实优先",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "20-02",
+    "chapter": "20",
+    "stage": "增长",
+    "title": "设置48小时内初步响应目标",
+    "goal": "建立可以履行的服务承诺",
+    "steps": [
+      "1. 打开客服表，按订单匿名编号记录真实问题、承诺与处理状态。",
+      "2. 分级处理订单失联、支付争议、一般咨询，记录处理负责人",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“客服SLA与工单表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "客服SLA与工单表",
+    "when_stuck": "人手不足调整承诺，不虚假宣称7x24",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "20-03",
+    "chapter": "20",
+    "stage": "增长",
+    "title": "逐条分析退货原因",
+    "goal": "把售后问题回流到选品",
+    "steps": [
+      "1. 打开客服表，按订单匿名编号记录真实问题、承诺与处理状态。",
+      "2. 记录尺寸不合、质量、延误、预期落差、损坏，按原因统计",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“退款原因分类数据”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "退款原因分类数据",
+    "when_stuck": "无明确原因联系客户核实",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "20-04",
+    "chapter": "20",
+    "stage": "增长",
+    "title": "做月度商品淘汰",
+    "goal": "减少隐性亏损",
+    "steps": [
+      "1. 打开客服表，按订单匿名编号记录真实问题、承诺与处理状态。",
+      "2. 商品退款率与质量问题超预设线时暂停推广，查样品和供应链",
+      "3. 将结果填写到「templates/customer-support.csv」或对应记录表，并按“SKU去留记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/customer-support.csv",
+    "deep_dive": "playbooks/08-operations.md",
+    "deliverable": "SKU去留记录",
+    "when_stuck": "质量不稳先退款/补发再谈拉新",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "21-01",
+    "chapter": "21",
+    "stage": "增长",
+    "title": "定义每日10个指标",
+    "goal": "区分流量、成交与利润",
+    "steps": [
+      "1. 打开周KPI表，只录入平台可导出、自己能对账的实际订单和成本。",
+      "2. 记录访客、详情浏览、加购、结账、支付、成交额、广告、变动成本、退款、净贡献",
+      "3. 将结果填写到「templates/weekly-kpi.csv」或对应记录表，并按“每日指标CSV至少7行”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/weekly-kpi.csv",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "每日指标CSV至少7行",
+    "when_stuck": "统计口径不一致先统一定义",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "21-02",
+    "chapter": "21",
+    "stage": "增长",
+    "title": "计算关键转化率",
+    "goal": "找到损失最大环节",
+    "steps": [
+      "1. 打开周KPI表，只录入平台可导出、自己能对账的实际订单和成本。",
+      "2. 计算商品页到加购、结账到支付、访问到购买、单笔贡献",
+      "3. 将结果填写到「templates/weekly-kpi.csv」或对应记录表，并按“漏斗指标表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/weekly-kpi.csv",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "漏斗指标表",
+    "when_stuck": "某指标无法测得就标缺失",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "21-03",
+    "chapter": "21",
+    "stage": "增长",
+    "title": "复盘1次真实订单",
+    "goal": "让现金流说话",
+    "steps": [
+      "1. 打开周KPI表，只录入平台可导出、自己能对账的实际订单和成本。",
+      "2. 把订单收入、供应商付款、支付费用、运费、退款预留逐项对账",
+      "3. 将结果填写到「templates/weekly-kpi.csv」或对应记录表，并按“真实订单利润拆解（隐去隐私）”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/weekly-kpi.csv",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "真实订单利润拆解（隐去隐私）",
+    "when_stuck": "发现手续费漏计则修全历史模型",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "21-04",
+    "chapter": "21",
+    "stage": "增长",
+    "title": "每周只改1-2项",
+    "goal": "检验措施是否有效",
+    "steps": [
+      "1. 打开周KPI表，只录入平台可导出、自己能对账的实际订单和成本。",
+      "2. 只改变图片或价格或物流时效一个因素，记录前后差异和样本量",
+      "3. 将结果填写到「templates/weekly-kpi.csv」或对应记录表，并按“周复盘与下一周假设”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/weekly-kpi.csv",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "周复盘与下一周假设",
+    "when_stuck": "同改多项就无法判断谁起作用",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "22-01",
+    "chapter": "22",
+    "stage": "增长",
+    "title": "建立可审计Prompt",
+    "goal": "保证AI知道不能编造",
+    "steps": [
+      "1. 打开Prompt工具包，准备真实素材、授权范围和需人工审批的发布清单。",
+      "2. 使用商品事实表、官方来源与输出格式",
+      "3. 要求未知项不补全",
+      "4. 将结果填写到「templates/prompts.md」或对应记录表，并按“可复用Prompt与事实输入”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "可复用Prompt与事实输入",
+    "when_stuck": "输出没有证据就标未知",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "22-02",
+    "chapter": "22",
+    "stage": "增长",
+    "title": "批量生成草稿但抽检",
+    "goal": "避免错误规模化",
+    "steps": [
+      "1. 打开Prompt工具包，准备真实素材、授权范围和需人工审批的发布清单。",
+      "2. 每次生成5份标题/邮件，只审查合格后进入发布队列",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“人工复核表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "人工复核表",
+    "when_stuck": "出错超过阈值就缩小批次",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "22-03",
+    "chapter": "22",
+    "stage": "增长",
+    "title": "自动汇总订单CSV",
+    "goal": "减少手工录入错误",
+    "steps": [
+      "1. 打开Prompt工具包，准备真实素材、授权范围和需人工审批的发布清单。",
+      "2. 导出平台允许的订单数据，去隐私后做SKU级日报",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“可复算日报表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "可复算日报表",
+    "when_stuck": "不把API凭证上传给AI或公开仓库",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "22-04",
+    "chapter": "22",
+    "stage": "增长",
+    "title": "设置人工批准关口",
+    "goal": "AI不代替商家负责",
+    "steps": [
+      "1. 打开Prompt工具包，准备真实素材、授权范围和需人工审批的发布清单。",
+      "2. 订单退款、广告加预算、定价大改、公开发布均需人工确认",
+      "3. 将结果填写到「templates/prompts.md」或对应记录表，并按“审批清单”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/prompts.md",
+    "deep_dive": "playbooks/12-experiment-system.md",
+    "deliverable": "审批清单",
+    "when_stuck": "审批人不在时暂停高风险动作",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "23-01",
+    "chapter": "23",
+    "stage": "实践",
+    "title": "演练A：POD宠物礼物",
+    "goal": "验证无库存路径",
+    "steps": [
+      "1. 从三份完整实战演练中选一份，先标记哪些资料为模拟、哪些是真实报价和用户反馈。",
+      "2. 按examples/pod-pet-gift.md逐项填写需求、样品、支付、物流、利润",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“完整演练报告”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "examples/first-order-dry-run.md",
+    "deliverable": "完整演练报告",
+    "when_stuck": "若主体不符合支付要求，停在资格核验",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "23-02",
+    "chapter": "23",
+    "stage": "实践",
+    "title": "演练B：Amazon家居SKU",
+    "goal": "验证平台开店路径",
+    "steps": [
+      "1. 从三份完整实战演练中选一份，先标记哪些资料为模拟、哪些是真实报价和用户反馈。",
+      "2. 按examples/amazon-home.md完成注册资料模拟、竞品、报价、FBA/FBM比较",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“入驻资格和单位经济模型”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "examples/first-order-dry-run.md",
+    "deliverable": "入驻资格和单位经济模型",
+    "when_stuck": "审核未通过不发货",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "23-03",
+    "chapter": "23",
+    "stage": "实践",
+    "title": "演练C：B2B采购线索",
+    "goal": "验证询盘路径",
+    "steps": [
+      "1. 从三份完整实战演练中选一份，先标记哪些资料为模拟、哪些是真实报价和用户反馈。",
+      "2. 按examples/b2b-supply.md做客户名单、RFQ、英文能力页与报价",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“10份个性化外联草稿”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "examples/first-order-dry-run.md",
+    "deliverable": "10份个性化外联草稿",
+    "when_stuck": "没有真实交付能力不发商务承诺",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "23-04",
+    "chapter": "23",
+    "stage": "实践",
+    "title": "复盘演练结果",
+    "goal": "区分演练和真实订单",
+    "steps": [
+      "1. 从三份完整实战演练中选一份，先标记哪些资料为模拟、哪些是真实报价和用户反馈。",
+      "2. 记录证据、假设、未完成项、下一步以及是否真有回款",
+      "3. 将结果填写到「examples/pod-pet-gift.md」或对应记录表，并按“演练评估表”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "examples/pod-pet-gift.md",
+    "deep_dive": "examples/first-order-dry-run.md",
+    "deliverable": "演练评估表",
+    "when_stuck": "无实单不能填收入数字",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "24-01",
+    "chapter": "24",
+    "stage": "实践",
+    "title": "执行前7天的入场测试",
+    "goal": "优先完成不可跳过条件",
+    "steps": [
+      "1. 打开30天任务CSV，从当天实际资料与证据缺口出发，不把模拟订单写成实收。",
+      "2. 完成主体资格、市场、需求、竞品、成本初表",
+      "3. 将结果填写到「templates/30-day-plan.csv」或对应记录表，并按“第一周通过/待补/失败记录”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/30-day-plan.csv",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "第一周通过/待补/失败记录",
+    "when_stuck": "任何资格不满足就停在验证阶段",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "24-02",
+    "chapter": "24",
+    "stage": "实践",
+    "title": "第8-14天取得样品和报价",
+    "goal": "用实际信息代替幻想",
+    "steps": [
+      "1. 打开30天任务CSV，从当天实际资料与证据缺口出发，不把模拟订单写成实收。",
+      "2. 拿供应商书面报价、试发货、成本试算、生成商品详情草稿",
+      "3. 将结果填写到「templates/30-day-plan.csv」或对应记录表，并按“样品与利润双验收”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/30-day-plan.csv",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "样品与利润双验收",
+    "when_stuck": "无法发样可先完成模拟但不能宣称上架可卖",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "24-03",
+    "chapter": "24",
+    "stage": "实践",
+    "title": "第15-21天跑通购买链路",
+    "goal": "只试一个商品",
+    "steps": [
+      "1. 打开30天任务CSV，从当天实际资料与证据缺口出发，不把模拟订单写成实收。",
+      "2. 完成商品页、支付测试、物流配置、一个合法获客渠道",
+      "3. 将结果填写到「templates/30-day-plan.csv」或对应记录表，并按“店铺和结账测试报告”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/30-day-plan.csv",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "店铺和结账测试报告",
+    "when_stuck": "购买链路没通不投广告",
+    "time_min": 40,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  },
+  {
+    "id": "24-04",
+    "chapter": "24",
+    "stage": "实践",
+    "title": "第22-30天判断保留或退出",
+    "goal": "看净贡献和真实反馈",
+    "steps": [
+      "1. 打开30天任务CSV，从当天实际资料与证据缺口出发，不把模拟订单写成实收。",
+      "2. 根据流量、询盘、真实订单、退货、现金占用做Go/Pivot/Stop",
+      "3. 将结果填写到「templates/30-day-plan.csv」或对应记录表，并按“第30天复盘和下一轮验证目标”逐项验收；每一条外部事实附原始网址/沟通记录，未知项保留待核查。"
+    ],
+    "template": "templates/30-day-plan.csv",
+    "deep_dive": "START-HERE.md",
+    "deliverable": "第30天复盘和下一轮验证目标",
+    "when_stuck": "没有数据就选择延长验证而不是伪造增长",
+    "time_min": 25,
+    "priority": "进阶",
+    "source_type": "可复现的操作建议（非平台政策）"
+  }
+]
