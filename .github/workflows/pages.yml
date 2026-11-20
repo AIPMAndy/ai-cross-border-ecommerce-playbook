@@ -26,3 +26,5 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify live site and original PDF byte hashes
+        run: python3 scripts/verify_live.py
