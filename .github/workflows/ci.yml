@@ -23,4 +23,21 @@ jobs:
         with:
           node-version: '22'
       - name: Check browser JS syntax
-        run: node --check assets/app.js
+        run: |
+          node --check assets/app.js
+          node --check assets/sources.js
+      - name: Test original source ledger and exporter
+        run: node tests/test_sources.cjs
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Chromium
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Run responsive browser regression
+        run: python scripts/browser_smoke.py
