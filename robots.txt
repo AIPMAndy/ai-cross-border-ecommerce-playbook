@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/sitemap.xml
