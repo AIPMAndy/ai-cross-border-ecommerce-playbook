@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f8fa">
+<title>跨境电商官方资料与案例来源复核 | AI 酋长 Andy</title>
+<meta name="description" content="从原始研究台账查找跨境平台准入、支付、进口及第三方商家案例的历史来源。支持原链接、日期、风险优先级筛选和本机 TXT 下载；不把历史资料冒充最新政策。">
+<link rel="canonical" href="https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/sources.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="跨境电商来源复核工作台 | AI 酋长 Andy">
+<meta property="og:description" content="从同一 CSV 台账查找官方来源、第三方案例、历史核验日期，离线导出下一轮人工核对清单。">
+<meta property="og:url" content="https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/sources.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"跨境电商来源复核工作台","url":"https://aipmandy.github.io/ai-cross-border-ecommerce-playbook/sources.html","inLanguage":"zh-CN","dateModified":"2026-11-20","description":"基于同仓库的历史来源台账，帮助读者核对平台规则及第三方研究案例；来源核验日不等于当日有效性。","author":{"@type":"Person","name":"AI 酋长 Andy","url":"https://metaver.vip/"},"publisher":{"@type":"Organization","name":"星觉科技","url":"https://www.a6no1.cn/"},"isBasedOn":"https://github.com/AIPMAndy/ai-cross-border-ecommerce-playbook/blob/main/research/source-register.csv"}</script>
+<style>
+:root{color-scheme:light;font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;background:#f7f8fa;color:#17202b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:#164e91}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #2474e5;outline-offset:3px}
+.shell{width:min(1100px,calc(100% - 40px));margin:auto}header{border-bottom:1px solid #e0e3e9;background:#fff}
+nav{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:13px;font-weight:700}
+nav a{text-decoration:none}nav strong{font-size:15px;letter-spacing:-.025em;color:#121c2a}nav span{display:flex;flex-wrap:wrap;gap:16px}
+.hero{padding:64px 0 34px;max-width:780px}.eyebrow{font-size:11px;text-transform:uppercase;font-weight:850;letter-spacing:.18em;color:#326197}
+h1{font-size:clamp(32px,5vw,60px);line-height:1.13;letter-spacing:-.05em;margin:14px 0 22px}
+.hero p{font-size:16px;line-height:1.9;color:#516174}.fine{font-size:13px!important;color:#5e6874!important}
+.panel{background:#fff;border:1px solid #dde1e8;border-radius:18px;padding:24px;box-shadow:0 7px 24px #15243a06;margin:22px 0}
+.controls{display:flex;flex-wrap:wrap;gap:14px;align-items:end}
+.controls label{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:750;color:#37445a}
+.controls label.search{flex:1;min-width:200px}
+input[type=search],select{min-height:44px;border:1px solid #cbd2dc;border-radius:9px;padding:8px 12px;background:#fff;color:#17202b;font:inherit;font-size:14px}
+.controls .check{flex-direction:row;align-items:center;gap:8px;padding-bottom:12px}
+input[type=checkbox]{width:18px;height:18px;accent-color:#164e91}
+button{min-height:44px;padding:10px 16px;border:1px solid #172c48;background:#182a44;color:white;font-weight:750;border-radius:9px;cursor:pointer}
+button.ghost{background:white;color:#24384e;border-color:#cbd2dc}
+.resultbar{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #e7eaf0;padding-bottom:16px;margin-bottom:16px}
+#summary{font-size:14px;color:#455367}#summary strong{font-size:18px;color:#15253b}
+#sourceList{display:grid;gap:10px}.source{border:1px solid #e3e6eb;border-radius:12px;padding:18px;min-width:0}
+.sourcehead{display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap;align-items:center}
+.source h2{margin:0;font-size:17px;letter-spacing:-.02em}.source p{font-size:13px;color:#526073;line-height:1.6;margin:10px 0 0}
+.source .tag{background:#e9edf3;border-radius:6px;padding:4px 7px;font-size:11px;font-weight:750;color:#2b415b}
+.source a{word-break:break-word;font-size:13px;line-height:1.7}
+.info{padding:15px 18px;border-left:3px solid #4677bb;background:#eef3f9;font-size:13px;line-height:1.85}
+#status{font-size:13px;color:#374963;min-height:24px}footer{padding:36px 0 50px;border-top:1px solid #e2e5e9;font-size:13px;line-height:2;color:#465366}
+footer a{margin-right:12px}.skip{position:absolute;left:-9999px}.skip:focus{left:10px;top:10px;padding:8px;background:#fff}
+@media(max-width:640px){.shell{width:min(100% - 24px,1100px)}.hero{padding:40px 0 12px}.panel{padding:16px}.controls{align-items:stretch}.controls>*{flex-basis:100%}.controls .check{padding:2px 0}nav{align-items:flex-start;padding:16px 0;flex-direction:column}nav span{gap:10px}.source{padding:15px}}
+</style>
+<script defer src="assets/sources.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到内容</a>
+<header><nav class="shell" aria-label="主导航"><strong>AI COMMERCE / EVIDENCE</strong><span><a href="./">教程主页</a><a href="./#calculator">利润计算</a><a href="pdf/ai-cross-border-ecommerce-playbook-guide.pdf">152 页 PDF</a><a href="https://github.com/AIPMAndy/ai-cross-border-ecommerce-playbook">源码与反馈</a></span></nav></header>
+<main id="main" class="shell">
+<section class="hero"><div class="eyebrow">SOURCE REVIEW WORKBENCH · 20 NOV 2026</div><h1>先核实规则，再决定投入。</h1>
+<p>研究时用过的资料不等于今天仍然有效。这里直接读取本项目的 <a href="research/source-register.csv">来源台账 CSV</a>，让你检索原始官方规则、第三方案例、历史核验日期，并带走待复核清单。</p>
+<p class="fine">网页工作台于 2026-11-20 更新；原台账的核验日期保持原样。特别是收款、入驻、税务与进出口政策，应以现在的官方页面和适用国家为准。</p></section>
+<section class="panel" aria-label="来源检索">
+<div class="controls">
+<label class="search">搜索名称、编号或 URL<input type="search" id="search" placeholder="例如 Amazon / Shopify / CBP" autocomplete="off"></label>
+<label>来源类别<select id="kind"><option value="">全部类别</option><option value="official">官方规则</option><option value="public case">第三方公开案例</option></select></label>
+<label class="check"><input id="priority" type="checkbox">只看超过 30 天优先复核</label>
+<button class="ghost" id="clear" type="button">清除筛选</button>
+</div></section>
+<section class="panel" aria-labelledby="resultsTitle">
+<div class="resultbar"><div><h2 id="resultsTitle" style="margin:0 0 6px;font-size:21px">来源证据</h2><div id="summary" aria-live="polite">正在加载原始台账…</div></div><button id="export" type="button" disabled>下载当前复核清单 TXT</button></div>
+<div id="status" role="status" aria-live="polite"></div>
+<div id="sourceList"></div>
+<p id="empty" hidden>没有符合条件的历史来源。请清除筛选后重试。</p></section>
+<aside class="info"><strong>使用边界：</strong>“官方规则”仅代表原链接属于官方机构/平台，不能说明其今天依然有效；“第三方公开案例”也不能证明 AI 是结果的唯一原因。超过 30 天仅是复核优先级标记，不是失效结论。导出只发生在你的浏览器，不上传筛选内容。</aside>
+</main>
+<footer><div class="shell"><strong>AI 酋长 Andy · 星觉科技</strong><div>微信：<strong>AIPMAndy</strong>（可选中复制，不强制留资）</div><div><a href="https://metaver.vip/">个人官网</a><a href="https://metaver.vip/services">咨询服务</a><a href="https://www.a6no1.cn/">公司官网</a><a href="https://github.com/AIPMAndy/ai-cross-border-ecommerce-playbook/blob/main/research/source-register.csv">原始研究台账</a></div></div></footer>
+</body></html>
